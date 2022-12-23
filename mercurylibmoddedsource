@@ -42,9 +42,9 @@ local Library = {
         HydraHub = {
 			Main = Color3.fromRGB(283, 100, 62),
 			Secondary = Color3.fromRGB(262, 60, 34),
-			Tertiary = Color3.fromRGB(0, 0, 6),
+			Tertiary = Color3.fromRGB(262, 60, 34),
 
-			StrongText = Color3.fromRGB(0, 0, 0),		
+			StrongText = Color3.fromRGB(30, 30, 30),		
 			WeakText = Color3.fromRGB(0, 0, 172)
 		},
 		Serika = {
