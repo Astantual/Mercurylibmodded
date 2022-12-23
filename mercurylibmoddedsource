@@ -40,12 +40,12 @@ local Library = {
 			WeakText = Color3.fromHSV(0, 0, 172/255)
 		},
         HydraHub = {
-			Main = Color3.fromHSV(360/360, 100/255, 100/255), --background, first on list
-			Secondary = Color3.fromHSV(0/360, 0/255, 0/255), -- pretty sure this is second on the list
-			Tertiary = Color3.fromHSV(30/360, 30/255, 30/255), --third thing on the theme selector
+			Main = Color3.fromHSV(135/360, 0/255, 255/255), --outline, first on list
+			Secondary = Color3.fromHSV(0/360, 0/255, 0/255), -- background
+			Tertiary = Color3.fromHSV(30/360, 30/255, 30/255), --option outlines
 
 			StrongText = Color3.fromHSV(0, 0, 1),	--name text n stuff	
-			WeakText = Color3.fromHSV(0, 0, 172/255) --description type stuff
+			WeakText = Color3.fromHSV(0, 0, 172/255) --icon and description
 		},
 		Serika = {
 			Main = Color3.fromRGB(50, 52, 55),
