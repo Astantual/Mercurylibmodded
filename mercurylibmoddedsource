@@ -40,13 +40,13 @@ local Library = {
 			WeakText = Color3.fromHSV(0, 0, 172/255)
 		},
         HydraHub = {
-			Main = Color3.fromHSV(272/360, 70/255, 54/255), --outline, first on list
-			Secondary = Color3.fromHSV(0/360, 0/255, 0/255), -- background
-			Tertiary = Color3.fromHSV(30/360, 30/255, 30/255), --option outlines
+			Main = Color3.fromRGB(135, 0, 255),--outline, first on list
+			Secondary = Color3.fromRGB(0, 0, 0),--background, second on list
+			Tertiary = Color3.fromRGB(30, 30, 30),--item outlines, thirdon list
 
-			StrongText = Color3.fromHSV(0, 0, 1),	--name text n stuff	
-			WeakText = Color3.fromHSV(0, 0, 172/255) --icon and description
-		},
+			StrongText = Color3.fromHSV(0, 0, 1),		--big text n stuff
+			WeakText = Color3.fromHSV(0, 0, 172/255) --icon and descriptions
+        },
 		Serika = {
 			Main = Color3.fromRGB(50, 52, 55),
 			Secondary = Color3.fromRGB(80, 82, 85),
