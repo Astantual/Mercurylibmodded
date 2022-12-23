@@ -40,12 +40,12 @@ local Library = {
 			WeakText = Color3.fromHSV(0, 0, 172/255)
 		},
         HydraHub = {
-			Main = Color3.fromHSV(262/360, 60/255, 34/255),
-			Secondary = Color3.fromHSV(262/360, 60/255, 34/255),
-			Tertiary = Color3.fromHSV(0/360, 0/255, 6/255),
+			Main = Color3.fromRGB(283, 100, 62),
+			Secondary = Color3.fromRGB(262, 60, 34),
+			Tertiary = Color3.fromRGB(0, 0, 6),
 
-			StrongText = Color3.fromHSV(0, 0, 0),		
-			WeakText = Color3.fromHSV(0, 0, 172/255)
+			StrongText = Color3.fromRGB(0, 0, 0),		
+			WeakText = Color3.fromRGB(0, 0, 172)
 		},
 		Serika = {
 			Main = Color3.fromRGB(50, 52, 55),
