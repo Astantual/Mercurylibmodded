@@ -40,8 +40,8 @@ local Library = {
 			WeakText = Color3.fromHSV(0, 0, 172/255)
 		},
         HydraHub = {
-			Main = Color3.fromHSV(283/360, 100/255, 48/255),
-			Secondary = Color3.fromHSV(283/360, 100/255, 48/255),
+			Main = Color3.fromHSV(283/360, 60/255, 48/255), --background
+			Secondary = Color3.fromHSV(283/360, 100/255, 48/255), --
 			Tertiary = Color3.fromHSV(30/360, 30/255, 30/255),
 
 			StrongText = Color3.fromHSV(0, 0, 1),		
