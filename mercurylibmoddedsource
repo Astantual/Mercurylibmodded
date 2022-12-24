@@ -39,14 +39,22 @@ local Library = {
 			StrongText = Color3.fromHSV(0, 0, 1),		
 			WeakText = Color3.fromHSV(0, 0, 172/255)
 		},
-        Catalyst = {
+        	Catalyst = {
 			Main = Color3.fromRGB(135, 0, 255),--outline, first on list
 			Secondary = Color3.fromRGB(0, 0, 0),--background, second on list
 			Tertiary = Color3.fromRGB(30, 30, 30),--item outlines, thirdon list
 
 			StrongText = Color3.fromHSV(0, 0, 1),		--big text n stuff
 			WeakText = Color3.fromHSV(0, 0, 172/255) --icon and descriptions
-        },
+        	},
+		Nexus = {
+			Main = Color3.fromRGB(86, 76, 251),--outline, first on list
+			Secondary = Color3.fromRGB(26, 32, 58),--background, second on list
+			Tertiary = Color3.fromRGB(38, 45, 71),--item outlines, thirdon list
+
+			StrongText = Color3.fromHSV(200, 200, 200),		--big text n stuff
+			WeakText = Color3.fromHSV(38, 45, 71/255) --icon and descriptions
+        	},
 		Serika = {
 			Main = Color3.fromRGB(50, 52, 55),
 			Secondary = Color3.fromRGB(80, 82, 85),
