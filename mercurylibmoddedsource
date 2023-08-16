@@ -31,14 +31,6 @@ local HTTPService = game:GetService("HttpService")
 
 local Library = {
 	Themes = {
-		Cashhub = {
-			Main = Color3.fromRGB(135, 0, 255),--outline, first on list
-			Secondary = Color3.fromRGB(0, 0, 0),--background, second on list
-			Tertiary = Color3.fromRGB(135, 0, 255),--item outlines, thirdon list
-
-			StrongText = Color3.fromHSV(0, 0, 1),		--big text n stuff
-			WeakText = Color3.fromHSV(0, 0, 1) --icon and descriptions
-		},
 		Bloodhub = {
 			Main = Color3.fromRGB(255,20,10),--outline, first on list
 			Secondary = Color3.fromRGB(0, 0, 0),--background, second on list
@@ -46,71 +38,7 @@ local Library = {
 
 			StrongText = Color3.fromHSV(0, 0, 1),		--big text n stuff
 			WeakText = Color3.fromHSV(0, 0, 1) --icon and descriptions
-		},
-		Moneyhub = {
-			Main = Color3.fromRGB(10,255,10),--outline, first on list
-			Secondary = Color3.fromRGB(0, 0, 0),--background, second on list
-			Tertiary = Color3.fromRGB(10,255,10),--item outlines, thirdon list
-
-			StrongText = Color3.fromHSV(0, 0, 1),		--big text n stuff
-			WeakText = Color3.fromHSV(0, 0, 1) --icon and descriptions
-		},
-		Legacy = {
-			Main = Color3.fromHSV(262/360, 60/255, 34/255),
-			Secondary = Color3.fromHSV(240/360, 40/255, 63/255),
-			Tertiary = Color3.fromHSV(260/360, 60/255, 148/255),
-
-			StrongText = Color3.fromHSV(0, 0, 1),		
-			WeakText = Color3.fromHSV(0, 0, 172/255)
-		},
-        	Catalyst = {
-			Main = Color3.fromRGB(135, 0, 255),--outline, first on list
-			Secondary = Color3.fromRGB(0, 0, 0),--background, second on list
-			Tertiary = Color3.fromRGB(30, 30, 30),--item outlines, thirdon list
-
-			StrongText = Color3.fromHSV(0, 0, 1),		--big text n stuff
-			WeakText = Color3.fromHSV(0, 0, 172/255) --icon and descriptions
-        	},
-		Nexus = {
-			Main = Color3.fromRGB(86, 76, 251),--outline, first on list
-			Secondary = Color3.fromRGB(26, 32, 58),--background, second on list
-			Tertiary = Color3.fromRGB(38, 45, 71),--item outlines, thirdon list
-
-			StrongText = Color3.fromHSV(0, 0, 6),		--big text n stuff
-			WeakText = Color3.fromHSV(0, 0, 172/255) --icon and descriptions
-        	},
-		Serika = {
-			Main = Color3.fromRGB(50, 52, 55),
-			Secondary = Color3.fromRGB(80, 82, 85),
-			Tertiary = Color3.fromRGB(226, 183, 20),
-
-			StrongText = Color3.fromHSV(0, 0, 1),		
-			WeakText = Color3.fromHSV(0, 0, 172/255)
-		},
-		Dark = {
-			Main = Color3.fromRGB(30, 30, 35),
-			Secondary = Color3.fromRGB(50, 50, 55),
-			Tertiary = Color3.fromRGB(70, 130, 180),
-
-			StrongText = Color3.fromHSV(0, 0, 1),		
-			WeakText = Color3.fromHSV(0, 0, 172/255)
-		},
-		Rust = {
-			Main = Color3.fromRGB(37, 35, 33),
-			Secondary = Color3.fromRGB(65, 63, 63),
-			Tertiary = Color3.fromRGB(237, 94, 38),
-
-			StrongText = Color3.fromHSV(0, 0, 1),		
-			WeakText = Color3.fromHSV(0, 0, 172/255)
-		},
-		Aqua = {
-			Main = Color3.fromRGB(19, 21, 21),
-			Secondary = Color3.fromRGB(65, 63, 63),
-			Tertiary = Color3.fromRGB(51, 153, 137),
-
-			StrongText = Color3.fromHSV(0, 0, 1),        
-			WeakText = Color3.fromHSV(0, 0, 172/255)
-		},
+		}
 		Vaporwave = {},
 		OperaGX = {},
 		VisualStudio = {}
