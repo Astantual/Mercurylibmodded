@@ -39,6 +39,22 @@ local Library = {
 			StrongText = Color3.fromHSV(0, 0, 1),		--big text n stuff
 			WeakText = Color3.fromHSV(0, 0, 1) --icon and descriptions
 		},
+		Bloodhub = {
+			Main = Color3.fromRGB(255,20,10),--outline, first on list
+			Secondary = Color3.fromRGB(0, 0, 0),--background, second on list
+			Tertiary = Color3.fromRGB(255,20,10),--item outlines, thirdon list
+
+			StrongText = Color3.fromHSV(0, 0, 1),		--big text n stuff
+			WeakText = Color3.fromHSV(0, 0, 1) --icon and descriptions
+		},
+		Moneyhub = {
+			Main = Color3.fromRGB(10,255,10),--outline, first on list
+			Secondary = Color3.fromRGB(0, 0, 0),--background, second on list
+			Tertiary = Color3.fromRGB(10,255,10),--item outlines, thirdon list
+
+			StrongText = Color3.fromHSV(0, 0, 1),		--big text n stuff
+			WeakText = Color3.fromHSV(0, 0, 1) --icon and descriptions
+		},
 		Legacy = {
 			Main = Color3.fromHSV(262/360, 60/255, 34/255),
 			Secondary = Color3.fromHSV(240/360, 40/255, 63/255),
